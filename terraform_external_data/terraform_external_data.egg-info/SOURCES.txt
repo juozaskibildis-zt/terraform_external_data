@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-setup.py
-terraform_external_data/terraform_external_data.egg-info/PKG-INFO
-terraform_external_data/terraform_external_data.egg-info/SOURCES.txt
-terraform_external_data/terraform_external_data.egg-info/dependency_links.txt
-terraform_external_data/terraform_external_data.egg-info/top_level.txt
