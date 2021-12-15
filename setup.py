@@ -1,9 +1,9 @@
-import setuptools
+from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+setup(
     name="terraform-external-data",
     version="1.0.2",
     author="Juozas Kibildis",
@@ -20,7 +20,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "terraform_external_data"},
-    packages=setuptools.find_packages(where="terraform_external_data"),
+    packages=find_packages(),
     python_requires=">=3.6",
 )
