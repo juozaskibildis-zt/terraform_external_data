@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="terraform-external-data",
-    version="1.0.2",
+    version="1.0.3",
     author="Juozas Kibildis",
     author_email="juozas.kibildis@zenitech.co.uk",
     description="Terraform external data package",
